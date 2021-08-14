@@ -1,31 +1,28 @@
-#wall .tag-1{
-    display: none;
+#wall .tag-1 {
+    display:none;
 }
 
-#wall #tag-2 {
-    visibility: hidden;
-    
+div#wall #tag-2 {
+    display:none;
 }
 
-div#wall #tag-3.slick {
-    visibility: hidden;
-    
+body div#wall #tag-3.slick{
+    display:none;
 }
 
-#wall #tag-4 {
-    visibility: hidden;
-    
-}
-div#wall .parent #tag-5.slick {
-    visibility: hidden;
-    
+div#wall #tag-4 {
+    display:none;
 }
 
-div#wall div.parent div:last-child div#tag-6 {
-    visibility: hidden;
-    
+div#wall div.parent #tag-5.slick {
+    display:none;
 }
-body div#wall div.parent div > #tag-7.slick {
-    visibility: hidden;
-    
+
+
+body div#wall div.parent div:last-child div#tag-6{
+    display:none;
+}
+
+body div#wall div.parent div > div#tag-7.slick {
+    display:none;
 }
